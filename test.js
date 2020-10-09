@@ -41,18 +41,12 @@ describe('REST API', () => {
   }
 
   before((done) => {
-    // Remove previously added contacts
-    ContactModel.remove({}, (err) => {
-      done();
-    });
-
     // Add sampleContact
     var addSampleContact = new ContactModel();
     addSampleContact.name = "Jack";
     addSampleContact.gender = "Male";
     addSampleContact.email = "jack@gmail.com";
     addSampleContact.phone = "9111 1234";
-    addSampleContact.save();
 
     // add sampleContact2
     var addAnotherContact = new ContactModel();
@@ -60,8 +54,9 @@ describe('REST API', () => {
     addAnotherContact.gender = "Female";
     addAnotherContact.email = "jill@gmail.com";
     addAnotherContact.phone = "9111 1235";
-    addAnotherContact.save();
-
+    ContactModel.remove({}, (err) => {
+      addSampleContact.save().then(addAnotherContact.save()).then(() => done());  
+    });
   })
   
   /**
