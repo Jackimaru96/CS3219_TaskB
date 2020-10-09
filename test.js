@@ -83,7 +83,7 @@ describe('REST API', () => {
     * Test GET (by id)
     */
   describe("GET /api/contacts/_id", () => {
-    it("should GET all the contacts", (done) =>{
+    it("should GET a specific contact", (done) =>{
       chai.request(server)
         .get("/api/contacts/" + contactID)
         .end((err, res) => {
@@ -114,7 +114,7 @@ describe('REST API', () => {
    * Show that Contact added successfully; contains sampleContact, sampleContact2 and addContact
    */
   describe("GET /api/contacts", () => {
-    it("should GET all the contacts", (done) =>{
+    it("should GET correct contacts after previous contact added", (done) =>{
       chai.request(server)
         .get("/api/contacts")
         .end((err, res) => {
@@ -162,7 +162,7 @@ describe('REST API', () => {
    * Show that Contact deleted successfully; left sampleContact2 and addContact only
    */
   describe("GET /api/contacts", () => {
-    it("should GET all the contacts", (done) =>{
+    it("should GET all the contacts after deleting previous contact", (done) =>{
       chai.request(server)
         .get("/api/contacts")
         .end((err, res) => {

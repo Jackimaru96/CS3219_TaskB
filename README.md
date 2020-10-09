@@ -31,7 +31,7 @@ node -v
 npm -v
 
 // Checking if MongoDb is installed
-mongo --versionC
+mongo --version
 ````
 
 If all are installed properly, it should show the following:
@@ -150,7 +150,24 @@ We can demonstrate the REST API methods using Postman to send requests to the AP
 
 1. Demonstrate use of testing for API using Mocha/Chai, or any other testing framework (1.5 marks)
 2. Demonstrate ability to use Travis or any other CI tool to automate testing (1.5 mark)
-   
+
+
+
+### Demonstrate testing for API using Mocha/Chai
+
+After using Postman to show the GET, POST, PUT and DELETE methods of our REST API, we can run the test.js is in the repository.
+
+Stop the CLI that is currently running the `start_local`script
+
+We can then run the test by running the script `test` by executing the following command:
+
+````
+npm run test
+````
+
+You should see the following on your CLI:
+
+![Tests](./screenshots/test.png)
 
 ## Task B3
 
