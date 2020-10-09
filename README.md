@@ -1,6 +1,6 @@
 # CS3219 Task B: REST API
 
-## Jack Chen Yu JIe
+## Jack Chen Yu Jie
 
 ### Task B1:  Implement a simple Javascript backend and REST API to GET, POST,PUT, DELETE 
 
