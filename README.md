@@ -6,7 +6,7 @@
 
 1. [Task B1](#Task-B1)
 2. [Task B2](#Task-B2)
-3. [Task B3](Task-B3)
+3. [Task B3](#Task-B3)
 
 ## Task B1
 
@@ -76,12 +76,9 @@ Navigate to the root directory of the project and follow the instructions below:
    ````C
    // Install dependencies
    npm install
-   
-   // Install nodemon which watches your files and restarts express-server when there are changes
-   npm install -g nodemon
        
    // Start the express-server
-   nodemon index
+   npm run start_local
    ````
 
    if all is done correct, you should see a success message such as the one shown in the screenshot below:
@@ -147,7 +144,19 @@ We can demonstrate the REST API methods using Postman to send requests to the AP
 
 ## Task B2
 
+### Task B2: Write simple test cases for API and use a CI tool (Travis, etc) to automate testing. 
+
+**Objective**: 
+
+1. Demonstrate use of testing for API using Mocha/Chai, or any other testing framework (1.5 marks)
+2. Demonstrate ability to use Travis or any other CI tool to automate testing (1.5 mark)
+   
+
 ## Task B3
 
+### Task B2: Use CD tool for automated deployment to a serverless service.
 
+**Objective**: 
+
+1. Demonstrate ability to automatically deploy tool to a serverless service (e.g. AWS Lambda or Google Cloud Functions) (3 marks)
 
