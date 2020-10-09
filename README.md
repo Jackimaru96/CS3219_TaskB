@@ -111,7 +111,6 @@ We can demonstrate the REST API methods using Postman to send requests to the AP
 
    ![GET](./screenshots/Successful_GET.png)
    
-
 2. **POST** Request
 
    1. **Create a contact**
@@ -132,7 +131,6 @@ We can demonstrate the REST API methods using Postman to send requests to the AP
 
    ![PUT](./screenshots/Successful_PUT.png)
    
-
 4. **DELETE** request
 
    1. **Delete a contact**
@@ -169,9 +167,15 @@ You should see the following on your CLI:
 
 ![Tests](./screenshots/test.png)
 
+
+
+### Demonstrate ability to use Travis or any other CI tool to automate testing
+
+We added the `.travis.yml` file to enable Travis CI build.
+
 ## Task B3
 
-### Task B2: Use CD tool for automated deployment to a serverless service.
+### Task B2: Use CD tool for automated deployment to a serverless service
 
 **Objective**: 
 
