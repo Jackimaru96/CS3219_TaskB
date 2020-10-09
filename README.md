@@ -77,7 +77,7 @@ Navigate to the root directory of the project and follow the instructions below:
    // Install dependencies
    npm install
        
-   // Start the express-server
+   // Start the express-server using pre-defined script in package.json
    npm run start_local
    ````
 
@@ -171,11 +171,23 @@ You should see the following on your CLI:
 
 ### Demonstrate ability to use Travis or any other CI tool to automate testing
 
-We added the `.travis.yml` file to enable Travis CI build.
+We added the `.travis.yml` file to our repository to enable Travis CI build. This will automate the testing everytime we commit and push to the repository. Some screenshots are shown below:
+
+![travis](./screenshots/travis.png)
+
+The screenshot above shows any error or that all tests have passed when we push a commit to the repository on Github.
+
+
+
+![travis](./screenshots/travis1.png)
+
+![travis](./screenshots/travis2.png)
+
+
 
 ## Task B3
 
-### Task B2: Use CD tool for automated deployment to a serverless service
+### Task B3: Use CD tool for automated deployment to a serverless service
 
 **Objective**: 
 
