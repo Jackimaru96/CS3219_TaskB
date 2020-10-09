@@ -2,15 +2,20 @@
 
 ## Jack Chen Yu Jie
 
+## TOC
+
+1. [Task B1](#Task-B1)
+2. [Task B2](#Task-B2)
+3. [Task B3](Task-B3)
+
+## Task B1
+
 ### Task B1:  Implement a simple Javascript backend and REST API to GET, POST,PUT, DELETE 
 
 **Objective**: 
 
 1. Successful GET, POST, PUT, DELETE API calls on localhost using Postman (1.5 marks)
 2. Successful GET, POST, PUT, DELETE API calls to deployed endpoints using Postman (1.5 marks)
-   
-
-## Task B1
 
 ### Setup
 
@@ -141,6 +146,8 @@ We can demonstrate the REST API methods using Postman to send requests to the AP
 
 
 ## Task B2
+
+## Task B3
 
 
 
