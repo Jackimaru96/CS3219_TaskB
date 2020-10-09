@@ -192,5 +192,4 @@ The screenshot above shows any error or that all tests have passed when we push 
 **Objective**: 
 
 1. Demonstrate ability to automatically deploy tool to a serverless service (e.g. AWS Lambda or Google Cloud Functions) (3 marks)
-2. 
 
