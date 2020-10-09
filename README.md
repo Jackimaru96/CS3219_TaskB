@@ -139,7 +139,7 @@ We can demonstrate the REST API methods using Postman to send requests to the AP
 4. **DELETE** request
 
    1. **Delete a contact**
-      1. **DELETE ** Request `localhost:8080/api/contacts/{contact_id}` where `{contact_id}` is the contact's id which you can get from the `_id` field of the contact data
+      1. **DELETE** Request `localhost:8080/api/contacts/{contact_id}` where `{contact_id}` is the contact's id which you can get from the `_id` field of the contact data
 
    ![DELETE](./screenshots/Successful_DELETE.png)
 
