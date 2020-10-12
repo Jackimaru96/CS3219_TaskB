@@ -1,7 +1,7 @@
 const chai = require("chai");
 const chaiHTTP = require("chai-http");
 const like = require("chai-like");
-const server = require("./index.js");
+const server = require("./index_local.js");
 
 chai.should();
 chai.use(chaiHTTP);
