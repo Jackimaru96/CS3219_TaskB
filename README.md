@@ -193,3 +193,14 @@ The screenshot above shows any error or that all tests have passed when we push 
 
 1. Demonstrate ability to automatically deploy tool to a serverless service (e.g. AWS Lambda or Google Cloud Functions) (3 marks)
 
+### Accessing automated deployed API on AWS Lambda
+
+1. The deployed serverless service can be found at https://540f3e3e99.execute-api.us-east-1.amazonaws.com/dev
+
+2. The API can be found at https://540f3e3e99.execute-api.us-east-1.amazonaws.com/dev/api
+
+3. Accessing contacts: https://540f3e3e99.execute-api.us-east-1.amazonaws.com/dev/api/contacts
+
+4. You can use Postman to upload new contacts using **POST** method as described in [Task B2](#Task-B1) by simply changing the link to https://540f3e3e99.execute-api.us-east-1.amazonaws.com/dev/api/contacts as seen in the example below:
+
+   ![example](./screenshots/serverless_post.png)

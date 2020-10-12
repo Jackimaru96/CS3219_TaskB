@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --exit",
-    "start_local": "nodemon index.js"
+    "start_local": "nodemon index_local.js",
+    "start": "nodemon index.js"
   },
   "keywords": [
     "api",
@@ -16,9 +17,11 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "chai-like": "^1.1.1",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.10.8"
+    "mongoose": "^5.10.3",
+    "serverless-http": "^2.5.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
