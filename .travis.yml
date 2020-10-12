@@ -1,13 +1,15 @@
 language: node_js
 node_js:
-  - '13.11.0'
-  - 
-services: 
-  - mongodb
+- 13.11.0
+-
+services:
+- mongodb
 deploy:
   provider: lambda
-  function_name: "lambda-test"
-  region: "us-east-1"
-  role: "arn:aws:iam::0123456789012:role/lambda_basic_execution"
-  runtime: "nodejs12.x"
-  handler_name: "handler"
+  function_name: lambda-test
+  region: us-east-1
+  role: arn:aws:iam::311674406834:role/sample-app-dev-us-east-1-lambdaRole
+  runtime: nodejs12.x
+  handler_name: handler
+  secret_access_key:
+    secure: mwRV7h+hOWGGbzo/XwHVJ/vG4yXdxLeCJ/hlkRGPlSfZ1DJBSL/UK1DRm0lplNKySXZsnUqdGwTSQLH6/KMKs9IPe8BzutVnOxiYELx67nhqebrjDwhvr6FJCnCqixgdv5wm08TbphNUTO85Z3ljjjcRKGJUcxY295zqAjOuX2NRHoO9V8y84cp1ad59KOFjRqALmLM+fAHIr84xIgJAOTrlGmDgEtLyVV4295E8fuCQeEkgDDPLwprCZYHgFGsUd6ds1TtVXTWQQGI/EzEt8GopKqOfJ3ZVC+VIvbY4kaGFAEF3nGPe+mNOeUTO/+XgwLThzSxX6LZUijCzEYUn4Tl7O+6tVTNZHEhYqnYYXn5xfnZVqXuj7QCnazzm+ZoCMahhWIGrhu1bAgcVcZ9vK8wU5SGx4MWJ8vIBMih0urFF0xWfLHTieKNhp1DJ43iaVmUy7M/vN3vlaKib7I1zqci9+2pxfSE72n/YRUFPgszOR7/1LijwOZYASIxMxFnvntffaLgWD9VZtBhY12wpCnBuKGtCq9yPwqaiJAKvYzrGOkQQ5V/sMG6ygedE4hUupZ4CCX0/5j203dmCRVNoqJs+AMaXbjZK5txNHY8+8kdXhhpWDzKauDP547snWRkb2SmOyDTyhDLfxcXEhdjn+EneN90JkMPTedY+npX+DUU=
