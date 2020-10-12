@@ -201,6 +201,6 @@ The screenshot above shows any error or that all tests have passed when we push 
 
 3. Accessing contacts: https://540f3e3e99.execute-api.us-east-1.amazonaws.com/dev/api/contacts
 
-4. You can use Postman to upload new contacts using **POST** method as described in [Task B2](#Task-B1) by simply changing the link to https://540f3e3e99.execute-api.us-east-1.amazonaws.com/dev/api/contacts as seen in the example below:
+4. You can use Postman to upload new contacts using **POST** method as described in [Task B1](#Task-B1) by simply changing the link to https://540f3e3e99.execute-api.us-east-1.amazonaws.com/dev/api/contacts as seen in the example below:
 
    ![example](./screenshots/serverless_post.png)
