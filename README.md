@@ -2,24 +2,27 @@
 
 ## Jack Chen Yu Jie
 
-## TOC
+## Table Of Contents
 
 1. [Task B1](#Task-B1)
 2. [Task B2](#Task-B2)
 3. [Task B3](#Task-B3)
+4. [Link to Task B4](https://github.com/Jackimaru96/CS3219_TaskB4#Task-B4)
 
 ## Task B1
 
-### Task B1:  Implement a simple Javascript backend and REST API to GET, POST,PUT, DELETE 
+### Implement a simple Javascript backend and REST API to GET, POST,PUT, DELETE 
 
-**Objective**: 
+#### **Objective**
 
 1. Successful GET, POST, PUT, DELETE API calls on localhost using Postman (1.5 marks)
 2. Successful GET, POST, PUT, DELETE API calls to deployed endpoints using Postman (1.5 marks)
 
 ### Setup
 
-**Requirements**:  NodeJS, PostMan, MongoDb
+#### **Requirements**:  [NodeJS](https://nodejs.org/en/download/), [PostMan](https://www.postman.com/downloads/), [MongoDb](https://www.mongodb.com/try#community)
+
+Follow the links above or go to [Installation links](#installation-links) and follow the installation instructions for the above requirements.
 
 Use the following commands in your CLI (cmd/terminal) to check that you have all the required applications installed:
 
@@ -38,7 +41,7 @@ If all are installed properly, it should show the following:
 
 ![applications](./screenshots/applications.png)
 
-**Installation links:**
+#### **Installation links**
 
 1. [NodeJS](https://nodejs.org/en/download/)
    1. Refer to this [url](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for instructions on how to install `node` and `npm`
@@ -48,8 +51,6 @@ If all are installed properly, it should show the following:
    3. [Linux](https://docs.mongodb.com/manual/administration/install-on-linux/)
 
 3. [Postman](https://www.postman.com/downloads/)
-
-
 
 ### Instructions on running API Locally
 
@@ -88,9 +89,7 @@ Navigate to the root directory of the project and follow the instructions below:
 
    ![homepage](./screenshots/homepage.png)
 
-
-
-#### Instructions to demonstrate GET, POST, PUT, DELETE API on Postman
+### Instructions to demonstrate GET, POST, PUT, DELETE API on Postman
 
 After starting the node server and mongodb, we can now show the GET, POST, PUT, DELETE API on Postman.
 
@@ -142,14 +141,12 @@ We can demonstrate the REST API methods using Postman to send requests to the AP
 
 ## Task B2
 
-### Task B2: Write simple test cases for API and use a CI tool (Travis, etc) to automate testing. 
+### Write simple test cases for API and use a CI tool (Travis, etc) to automate testing. 
 
-**Objective**: 
+#### **Objective**
 
 1. Demonstrate use of testing for API using Mocha/Chai, or any other testing framework (1.5 marks)
 2. Demonstrate ability to use Travis or any other CI tool to automate testing (1.5 mark)
-
-
 
 ### Demonstrate testing for API using Mocha/Chai
 
@@ -189,17 +186,17 @@ The screenshot above shows any error or that all tests have passed when we push 
 
 ### Task B3: Use CD tool for automated deployment to a serverless service
 
-**Objective**: 
+#### **Objective**
 
 1. Demonstrate ability to automatically deploy tool to a serverless service (e.g. AWS Lambda or Google Cloud Functions) (3 marks)
 
 ### Accessing automated deployed API on AWS Lambda
 
-1. The deployed serverless service can be found at https://540f3e3e99.execute-api.us-east-1.amazonaws.com/dev
+1. The deployed serverless service can be found [here](https://540f3e3e99.execute-api.us-east-1.amazonaws.com/dev)
 
-2. The API can be found at https://540f3e3e99.execute-api.us-east-1.amazonaws.com/dev/api
+2. The API can be found at [here](https://540f3e3e99.execute-api.us-east-1.amazonaws.com/dev/api)
 
-3. Accessing contacts: https://540f3e3e99.execute-api.us-east-1.amazonaws.com/dev/api/contacts
+3. Access contacts [here](https://540f3e3e99.execute-api.us-east-1.amazonaws.com/dev/api/contacts)
 
 4. You can use Postman to upload new contacts using **POST** method as described in [Task B1](#Task-B1) by simply changing the link to https://540f3e3e99.execute-api.us-east-1.amazonaws.com/dev/api/contacts as seen in the example below:
 
