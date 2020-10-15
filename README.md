@@ -89,7 +89,7 @@ Navigate to the root directory of the project and follow the instructions below:
 
    ![homepage](./screenshots/homepage.png)
 
-### Instructions to demonstrate GET, POST, PUT, DELETE API on Postman
+### Instructions to demonstrate GET, POST, PUT, DELETE API on Postman on localhost
 
 After starting the node server and mongodb, we can now show the GET, POST, PUT, DELETE API on Postman.
 
@@ -138,6 +138,10 @@ We can demonstrate the REST API methods using Postman to send requests to the AP
    ![DELETE](./screenshots/Successful_DELETE.png)
 
 
+
+### Instructions to demonstrate GET, POST, PUT, DELETE API on Postman on deployed endpoints
+
+For demonstrating successful GET, POST, PUT, DELETE API calls to **deployed endpoints** using Postman, we do the same for each type of API call but change the URL instead to that of the deployed endpoints as stated in [Task B3](#Task-B3). The POST method is demonstrated using Postman to the deployed endpoint in point number 4 of [Task B3](#Task-B3).
 
 ## Task B2
 
@@ -201,3 +205,5 @@ The screenshot above shows any error or that all tests have passed when we push 
 4. You can use Postman to upload new contacts using **POST** method as described in [Task B1](#Task-B1) by simply changing the link to https://540f3e3e99.execute-api.us-east-1.amazonaws.com/dev/api/contacts as seen in the example below:
 
    ![example](./screenshots/serverless_post.png)
+   
+5.  You can also do other API method calls such as GET, PUT and DELETE as described in [Task B1](#Task-B1) but change the URL to https://540f3e3e99.execute-api.us-east-1.amazonaws.com/dev/api/contacts  instead.
